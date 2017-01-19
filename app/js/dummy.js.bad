@@ -1,0 +1,7 @@
+var _dummy_string='dummy1';
+var _dummy_number=1;
+var _dummy_unsed=2;
+console.log(_dummy_string);
+console.log(_dummy_number);
+bad_line
+other_bad_line
