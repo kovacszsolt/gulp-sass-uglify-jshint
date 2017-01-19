@@ -7,7 +7,7 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify');
 
 gulp.task('styles', function () {
-    return sass('app/sass/material.scss', {style: 'expanded'})
+    return sass('app/sass/main.scss', {style: 'expanded'})
         .pipe(gulp.dest('public/css'))
         .pipe(rename({suffix: '.min'}))
         .pipe(cssnano())
